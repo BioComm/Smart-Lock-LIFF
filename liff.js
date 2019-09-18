@@ -1,5 +1,5 @@
 // User service UUID: Change this to your generated service UUID
-const USER_SERVICE_UUID         = 'E9062E71-9E62-4BC6-B0D3-35CDCD9B027B'; // LED, Button
+const USER_SERVICE_UUID         = '9ac44303-9067-4fb6-bbe5-b6ab1f2dbde6'; // LED, Button
 // User service characteristics
 const LED_CHARACTERISTIC_UUID   = 'E9062E71-9E62-4BC6-B0D3-35CDCD9B027B';
 const BTN_CHARACTERISTIC_UUID   = '62FBD229-6EDD-4D1A-B554-5C4E1BB29169';
@@ -19,7 +19,7 @@ let clickCount = 0;
 
 window.onload = () => {
     initializeApp();
-    window.displayName = ''
+    window.displayName = 'Andrew858'
     window.pictureUrl = ''
 };
 
